@@ -1,8 +1,9 @@
-package Interface;
+package org.example.Factory;
 
-import org.example.*;
+import org.example.Interface.Spartan;
+import org.example.concreteClasses.*;
 
-public class ConveyorBelt extends SpartanFactory{
+public class ConveyorBelt extends SpartanFactory {
     @Override
     public Spartan createSpartan(String type) {
         switch(type) {

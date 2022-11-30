@@ -1,16 +1,18 @@
-package org.example;
+package org.example.concreteClasses;
 
-import Interface.Spartan;
+import org.example.Interface.Spartan;
 
-public class DevOps implements Spartan {
+public class JavaDev implements Spartan {
     @Override
     public String occupation() {
-        return "Dev Ops Engineer";
+
+        return "Java Developer";
     }
 
     @Override
     public String description() {
-        return "I deploy applications with automation";
+
+        return "tests in Java.";
     }
 
     @Override
@@ -20,6 +22,7 @@ public class DevOps implements Spartan {
 
     @Override
     public String codingLanguage() {
-        return "I code in Python and use other technologies";
+
+        return "I code in the Java language";
     }
 }

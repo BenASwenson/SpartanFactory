@@ -1,16 +1,16 @@
-package org.example;
+package org.example.concreteClasses;
 
-import Interface.Spartan;
+import org.example.Interface.Spartan;
 
-public class CSharpSDET implements Spartan {
+public class CSharp implements Spartan {
     @Override
     public String occupation() {
-        return "C# SDET";
+        return "C# Developer";
     }
 
     @Override
     public String description() {
-        return "I test software in the C# language";
+        return "I develop applications with C#";
     }
 
     @Override
@@ -20,6 +20,6 @@ public class CSharpSDET implements Spartan {
 
     @Override
     public String codingLanguage() {
-        return "I code in the C# language";
+        return "I code with C#";
     }
 }

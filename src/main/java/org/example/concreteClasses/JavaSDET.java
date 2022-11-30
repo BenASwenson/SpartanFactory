@@ -1,16 +1,16 @@
-package org.example;
+package org.example.concreteClasses;
 
-import Interface.Spartan;
+import org.example.Interface.Spartan;
 
-public class DataEngineer implements Spartan {
+public class JavaSDET implements Spartan {
     @Override
     public String occupation() {
-        return "Data Engineer";
+        return "Java SDET";
     }
 
     @Override
     public String description() {
-        return "I develop pipelines for data to be stored in";
+        return "I test code in Java";
     }
 
     @Override
@@ -20,6 +20,6 @@ public class DataEngineer implements Spartan {
 
     @Override
     public String codingLanguage() {
-        return "I code in the Python and SQL languages";
+        return "I code with Java";
     }
 }

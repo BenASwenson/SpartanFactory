@@ -1,4 +1,6 @@
-package Interface;
+package org.example.Factory;
+
+import org.example.Interface.Spartan;
 
 public abstract class SpartanFactory {
 

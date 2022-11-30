@@ -1,8 +1,7 @@
 package org.example;
 
-import Interface.ConveyorBelt;
-import Interface.Spartan;
-import Interface.SpartanFactory;
+import org.example.Factory.ConveyorBelt;
+import org.example.Interface.Spartan;
 
 public class Main {
     public static void main(String[] args) {

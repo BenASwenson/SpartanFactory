@@ -1,16 +1,16 @@
-package org.example;
+package org.example.concreteClasses;
 
-import Interface.Spartan;
+import org.example.Interface.Spartan;
 
-public class BusinessAnalyst implements Spartan {
+public class DevOps implements Spartan {
     @Override
     public String occupation() {
-        return "Business Analyst";
+        return "Dev Ops Engineer";
     }
 
     @Override
     public String description() {
-        return "I analyse business matters";
+        return "I deploy applications with automation";
     }
 
     @Override
@@ -20,6 +20,6 @@ public class BusinessAnalyst implements Spartan {
 
     @Override
     public String codingLanguage() {
-        return "I do not code";
+        return "I code in Python and use other technologies";
     }
 }

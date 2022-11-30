@@ -1,4 +1,4 @@
-package Interface;
+package org.example.Interface;
 
 public interface Spartan {
     abstract String occupation();
